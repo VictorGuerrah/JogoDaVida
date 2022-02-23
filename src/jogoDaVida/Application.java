@@ -17,7 +17,7 @@ public class Application {
 			jogoDaVida.simularNovaGeracao();
 		}
 		
-		System.out.println("Aplicação finalizada!");
+		// System.out.println("Aplicação finalizada!");
 
 	}
 
@@ -53,6 +53,6 @@ public class Application {
 	}
 
 	private static void imprimirPergunta() {
-		System.out.println("Deseja consultar a próxima geração?");
+		// System.out.println("Deseja consultar a próxima geração?");
 	}
 }

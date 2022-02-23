@@ -90,28 +90,28 @@ public class JogoDaVida {
 		
 		this.field = proximaGeracao();
 
-		System.out.println("\nNova geração:");
-		imprimirTabuleiro();
+		//System.out.println("\nNova geração:");
+		//imprimirTabuleiro();
 		
-		System.out.println("---");
+		//System.out.println("---");
 
 	}
 	
 	public void imprimirTabuleiro() {
 		
-		System.out.println();
+		//System.out.println();
 
-		for (int i = 0; i < this.tamanho; i++) {
+		//for (int i = 0; i < this.tamanho; i++) {
 
-			for (int j = 0; j < this.tamanho; j++) {
-				System.out.print(this.field[i][j] + " ");
-			}
+			//for (int j = 0; j < this.tamanho; j++) {
+				//System.out.print(this.field[i][j] + " ");
+			//}
 
-			System.out.println();
+			//System.out.println();
 
-		}
+		//}
 
-		System.out.println();
+		//System.out.println();
 
 	}
 	
