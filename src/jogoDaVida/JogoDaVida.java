@@ -9,6 +9,11 @@ public class JogoDaVida {
 
 		this.tamanho = 6;
 		this.field = new int[this.tamanho][this.tamanho];
+		this.preencherMatriz();
+
+	}
+	
+	public void preencherMatriz() {
 		
 		for (int i = 0; i < (this.tamanho); i++) {
 
@@ -17,7 +22,6 @@ public class JogoDaVida {
 			}
 
 		}
-
 	}
 
 	private int getVizinho(int i, int j){

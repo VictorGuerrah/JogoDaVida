@@ -72,5 +72,21 @@ public class JogoDaVidaTeste {
         assertEquals(2, vida.contarVizinhos(1, 2));
     }
     
+    @Test
+	public void testePreencherMatriz() {
+    	vida = new JogoDaVida();
+        int[][] matriz = vida.getField();
+        int tamanho = vida.getTamanho();
+
+        for (int i = 0; i < tamanho; i++) {
+
+			for (int j = 0; j < tamanho; j++) {
+
+				assertTrue((matriz[i][j] == 1) || (matriz[i][j] == 0));
+			}
+		}
+    	
+    }
+    
     
 }
