@@ -10,9 +10,9 @@ public class JogoDaVida {
 		this.tamanho = 6;
 		this.field = new int[this.tamanho][this.tamanho];
 		
-		for (int i = 1; i < (this.tamanho - 1); i++) {
+		for (int i = 0; i < (this.tamanho); i++) {
 
-			for (int j = 1; j < (this.tamanho - 1); j++) {
+			for (int j = 0; j < (this.tamanho); j++) {
 				this.field[i][j] = (int) (Math.random() * 1.5);
 			}
 
@@ -90,7 +90,7 @@ public class JogoDaVida {
 		
 		this.field = proximaGeracao();
 
-		//System.out.println("\nNova geração:");
+		//System.out.println("\nNova geraÃ§Ã£o:");
 		//imprimirTabuleiro();
 		
 		//System.out.println("---");
