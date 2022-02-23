@@ -97,7 +97,7 @@ public class JogoDaVida {
 
 	}
 	
-	public void imprimirTabuleiro() {
+	//public void imprimirTabuleiro() {
 		
 		//System.out.println();
 
@@ -113,7 +113,7 @@ public class JogoDaVida {
 
 		//System.out.println();
 
-	}
+	//}
 	
 	public int getTamanho() {
 		return this.tamanho;

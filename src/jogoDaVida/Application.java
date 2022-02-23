@@ -11,7 +11,7 @@ public class Application {
 
 		JogoDaVida jogoDaVida = new JogoDaVida();
 
-		jogoDaVida.imprimirTabuleiro();
+		//jogoDaVida.imprimirTabuleiro();
 
 		while(desejaContinuar()) {
 			jogoDaVida.simularNovaGeracao();
@@ -34,15 +34,15 @@ public class Application {
 
 			while(!valido) {
 
-				imprimirPergunta();
+				//imprimirPergunta();
 			
 				resposta = scanner.nextLine();
 				
 				valido = isRespostaValida(resposta);
 				
-				if(!valido) {
-					System.out.println("Resposta inválida.");
-				}
+				//if(!valido) {
+					//System.out.println("Resposta inválida.");
+				//}
 			}
 			
 			return resposta;
@@ -52,7 +52,7 @@ public class Application {
 		return resposta.equals(RESPOSTA_ACEITE) || resposta.equals(RESPOSTA_NEGACAO);
 	}
 
-	private static void imprimirPergunta() {
+	//private static void imprimirPergunta() {
 		// System.out.println("Deseja consultar a próxima geração?");
-	}
+	//}
 }
